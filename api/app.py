@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS 
+import nltk
 from nltk.tokenize import word_tokenize
 from textblob import TextBlob
 from sklearn.feature_extraction.text import TfidfVectorizer
