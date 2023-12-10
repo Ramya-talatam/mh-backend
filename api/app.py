@@ -4,6 +4,7 @@ from nltk.tokenize import word_tokenize
 from textblob import TextBlob
 from sklearn.feature_extraction.text import TfidfVectorizer
 import string
+nltk.download('punkt')
 
 # Initialize TF-IDF vectorizer
 tfidf_vectorizer = TfidfVectorizer(stop_words='english')
